@@ -339,10 +339,10 @@ struct config_t {
   bool lcdupdateonmove;       // update position on lcd when moving
 } myfocuser;
 
-#define PBswitchesPin   A0
+#define PBswitchesPin   6 //not used
 #define bledIN          A5
 #define gledOUT         A0
-#define Buzzer          A3
+#define Buzzer          5 //not used
 #define ch1temp         10
 #define EEPROMSIZE      1024      // ATMEGA328P 1024 EEPROM
 #define TIMEINTERVAL    10000L
@@ -1868,5 +1868,3 @@ void serialEvent()
     }
   }
 }
-
-
