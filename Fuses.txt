@@ -1,0 +1,5 @@
+Old Arduino Bootloader:
+3F D2 FF 05
+
+New Arduino Bootloader (512 bytes):
+3F DC FF 05
