@@ -128,7 +128,7 @@ struct config_t {
 #define Buzzer          5 //not used
 #define ch1temp         10
 #define myDir           A0
-#define myStep          A7
+#define myStep          13
 #define myEnable        A4
 #define myM0            A3  // microstepping lines
 #define myM1            A2
